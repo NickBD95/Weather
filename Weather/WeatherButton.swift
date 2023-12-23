@@ -22,3 +22,8 @@ struct WeatherButton: View {
             .clipShape(RoundedRectangle(cornerRadius: 10))
     }
 }
+
+#Preview {
+    WeatherButton(title: "ffff", textColor: .black, backgroundColor: .red)
+}
+
